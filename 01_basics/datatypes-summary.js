@@ -35,3 +35,29 @@ const myFunction = function(){
 console.log(typeof bignumber);
 
 // https://262.ecma-international.org/15.0/index.html?_gl=1*106xpnh*_ga*MTMxNDkyMTk2OC4xNzUzODczMTk5*_ga_TDCK4DWEPP*czE3NTM4NzMxOTkkbzEkZzAkdDE3NTM4NzMxOTkkajYwJGwwJGgw#sec-typeof-operator
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non Primitive)
+
+let myYoutubename = "Anshumankryadavdotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "anshu@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
